@@ -52,17 +52,17 @@ export default {
     };
   },
   mounted() {
-    console.log(this.articlePage);
+    // console.log(this.articlePage);
   },
   methods: {
     signInButton() {
-      console.log("1111111111");
+      // console.log("1111111111");
       if (
         this.formData.email === "abc@abc.com" &&
         this.formData.password == "123456"
       ) {
         this.signInButtonCheck = true;
-        console.log(this.signInButtonCheck);
+        // console.log(this.signInButtonCheck);
         return this.signInButtonCheck;
       }
       this.articlePage(this.signInButtonCheck);

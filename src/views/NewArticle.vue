@@ -22,7 +22,7 @@
             <b-form-group>
               <b-form-textarea
                 id="textarea"
-                v-model="text"
+                v-model="formData.text"
                 placeholder="Write your article (in markdown)"
                 rows="8"
                 max-rows="8"
@@ -53,7 +53,8 @@ export default {
     return {
       formData: {
         articleTitle: "",
-        aboutArticle: ""
+        aboutArticle: "",
+        text:""
       }
     };
   }

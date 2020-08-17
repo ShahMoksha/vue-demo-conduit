@@ -40,7 +40,7 @@ export default {
   methods: {
     articlePage() {
       this.check = true;
-      console.log(this.check);
+      // console.log(this.check);
       return this.check;
     }
   }
